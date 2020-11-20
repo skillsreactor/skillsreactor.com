@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="video">
+    <section class="uk-section-muted uk-padding-large">
+        <div class="uk-container">
+            <div class="uk-text-center uk-card">
+                <iframe class="uk-box-shadow-medium" width="560" height="315" src="https://www.youtube.com/embed/{{ page.vid }}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen uk-responsive uk-video="autoplay: false"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="uk-section">
+        <div class="uk-container uk-container-xsmall">
+            <article class="uk-article">
+                <h1 class="uk-article-title">{{ page.name }}</h1>
+                <p class="uk-text-lead">{{ page.description }}</p>
+                {{ content }}
+            </article>
+        </div>
+    </section>
+</div>
