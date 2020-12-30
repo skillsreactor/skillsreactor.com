@@ -31,7 +31,6 @@ google_analytics: true
 permalink: /:title
 date_format: '%B %d, %Y'
 show_excerpts: true
-highlighter: none
 kramdown:
    syntax_highlighter_opts:
       disable : true
