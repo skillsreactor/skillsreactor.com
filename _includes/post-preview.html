@@ -2,11 +2,11 @@
     <div class="uk-card-body">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             {%-  if post.preview_thumbnail -%}
-            <div class="uk-width-auto">
+            <div class="uk-width-auto@s">
                 <img data-src="{{ post.preview_thumbnail }}" width="200" height="200" alt="" uk-img>
             </div>
             {%- endif -%}
-            <div class="uk-width-expand">
+            <div class="uk-width-expand@s">
                 <h3 class="uk-card-title uk-margin-remove-bottom">
                     <a class="uk-link-heading" href="{{ post.url | relative_url }}">
                         {{ post.title | escape }}
