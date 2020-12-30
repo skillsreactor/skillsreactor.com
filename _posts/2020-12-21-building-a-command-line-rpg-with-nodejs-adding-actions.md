@@ -49,7 +49,9 @@ Anything that occurs within our action will be expected to directly modify the c
 
 Throughout these actions we are going to be using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){:target="_blank"} to easily place values from our variables and JavaScript expressions inside of strings. This greatly simplifies generating our console messages to the player, which we would otherwise need to build up using the concatenation operator, `+`.
 
-Our functions do not reference the `this` keyword inside of their function bodies, so it is perfectly fine to use [arrow expressions](https://youtu.be/fQ6QP6P8u3Y){:target="_blank"}. Because these functions are declared outside of any other function declaration, any use of the `this` keyword would refer to the global object.
+Our functions do not reference the `this` keyword inside of their function bodies, so it is perfectly fine to use arrow expressions. Because these functions are declared outside of any other function declaration, any use of the `this` keyword would refer to the global object.
+
+{%- include related-video.html vid="fQ6QP6P8u3Y" -%}
 
 ## Making Enemies
 
@@ -63,7 +65,11 @@ Our enemies start out very simple. They are just a combination of damage, health
     const enemy = { damage, health, gold };
 ```
 
-We calculate the gold reward for the enemy as the sum of their health in damage, so that players are better rewarded when fighting more difficult enemies. For more information on randomly selecting integers, take a look at [this video](https://youtu.be/lHIISpozFDI){:target="_blank"} where we go over selecting random items form an array.
+We calculate the gold reward for the enemy as the sum of their health in damage, so that players are better rewarded when fighting more difficult enemies.
+
+
+{%- include related-video.html vid="lHIISpozFDI" -%}
+
 
 ## Combat
 
@@ -80,7 +86,7 @@ Our combat will play out, without breaks, in a single loop until either our fear
     }
 ```
 
-We don't know ahead of time how much damage the character will do to the enemy. So in order to report back to the player how much damage was done, we store a reference to the enemies health before any damage is done. Then after the damage has occurred, we look at the difference between the two in order to determine damage done. [Chalk](https://www.npmjs.com/package/chalk){:target="_blank"} is a NPM module that will make our command line output more engaging and was added to the game from a community [pull request](https://github.com/skillsreactor/rpg-learning-example/pull/13){:target="_blank"} to an [issue](https://github.com/skillsreactor/rpg-learning-example/issues/9){:target="_blank"} by community member [mdurst365](https://github.com/mdurst365){:target="_blank"}.
+We don't know ahead of time how much damage the character will do to the enemy. So in order to report back to the player how much damage was done, we store a reference to the enemies health before any damage is done. Then after the damage has occurred, we look at the difference between the two in order to determine damage done. [Chalk](https://www.npmjs.com/package/chalk){:target="_blank"} is a NPM module that will make our command line output more engaging and was added to the game from a [pull request](https://github.com/skillsreactor/rpg-learning-example/pull/13){:target="_blank"} by community member [mdurst365](https://github.com/mdurst365){:target="_blank"} resolving this [issue](https://github.com/skillsreactor/rpg-learning-example/issues/9){:target="_blank"} .
 
 
 ## Death

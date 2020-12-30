@@ -21,3 +21,10 @@ body {
 .uk-section-extra-muted {
     background-color: #073642;
 }
+
+// Add a extra large list for lists of cards.
+$list-xlarge-margin-top: 40px;
+.uk-list-xlarge > :nth-child(n+2),
+.uk-list-xlarge > * > ul { margin-top: $list-xlarge-margin-top; }
+.uk-list-xlarge.uk-list-striped > * { padding: $list-large-striped-padding-vertical $list-large-striped-padding-horizontal; }
+.uk-list-xlarge.uk-list-striped > :nth-child(n+2) { margin-top: 0; }
