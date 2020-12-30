@@ -7,6 +7,7 @@ description: >-
 vid: l-BGr-h5HNE
 tags:
     - faq
+comments: true
 ---
 ## Transcript
 

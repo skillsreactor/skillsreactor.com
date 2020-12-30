@@ -3,8 +3,10 @@ layout: default
 ---
 <section class="uk-section">
   <div class="uk-container">
+    
     <article class="uk-article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
+        {%- include breadcrumbs.html -%}
         <h1 class="uk-article-title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="uk-article-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -22,9 +24,11 @@ layout: default
         </p>
         {%- endif -%}
       </header>
+
       <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
       </div>
+
       {% assign recommended = site.tags[page.recommended_tag] %}
       {%- if recommended -%}
         <section class="uk-section">

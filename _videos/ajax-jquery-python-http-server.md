@@ -6,4 +6,5 @@ description: >-
 vid: UkMJFoaPq7E
 tags:
     - jquery
+comments: true
 ---

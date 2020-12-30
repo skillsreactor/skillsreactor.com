@@ -6,6 +6,7 @@ vid: QODw6A1rNC0
 tags:
     - faq
     - jquery
+comments: true
 ---
 ## Corrections
 

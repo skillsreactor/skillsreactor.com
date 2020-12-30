@@ -9,6 +9,7 @@ description: >-
 tags:
     - fundamentals
     - faq
+comments: true
 ---
 
 ## Transcript

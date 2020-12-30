@@ -7,6 +7,7 @@ description: >-
     A short introduction for beginners on how to use the web storage API
     with JavaScript.Specifically through calling the getItem and setItem
     methods on the localStorage host object.
+comments: true
 ---
 
 ## Transcript

@@ -7,6 +7,7 @@ description: >-
 vid: IY-CO1dz8rE
 tags:
     - fundamentals
+comments: true
 ---
 
 ## Transcript

@@ -7,6 +7,7 @@ description: >-
 vid: -kOyAMWgL_s
 tags:
     - faq
+comments: true
 ---
 ## Transcript
 

@@ -7,4 +7,5 @@ vid: UkoJj9RFwh4
 tags:
     - faq
     - jquery
+comments: true
 ---

@@ -7,4 +7,5 @@ description: >-
 vid: OJBlJI1vEK8
 tags:
     - fundamentals
+comments: true
 ---

@@ -8,4 +8,5 @@ description: >-
 tags:
     - jquery
     - common
+comments: true
 ---

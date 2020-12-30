@@ -5,6 +5,7 @@ tags:
     - fundamentals
 description: >-
     Using timeouts and intervals, such as setTimeout in JavaScript, to execute code on timer expiration.
+comments: true
 ---
 
 ## Transcript

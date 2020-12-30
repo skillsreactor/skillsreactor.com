@@ -7,6 +7,7 @@ description: >-
 vid: lHIISpozFDI
 tags:
     - common
+comments: true
 ---
 
 ## Transcript

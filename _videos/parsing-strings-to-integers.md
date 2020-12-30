@@ -5,6 +5,7 @@ description: >-
 vid: SjDXaHJ9IbM
 tags:
     - common
+comments: true
 ---
 
 ## Transcript
