@@ -2,7 +2,7 @@
 layout: post
 title: Bringing It Together | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
-preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+preview_thumbnail: assets/images/posts/node-cli-rpg-bringing-it-together-thumbnail.jpg
 image: assets/images/posts/node-cli-rpg-bringing-it-together.jpg
 excerpt: >-
     With all of our components ready to go, we can bring it together into our command line interface. We'll use inquirer and promise chains to build out our flow.

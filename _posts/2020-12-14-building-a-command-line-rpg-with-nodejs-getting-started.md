@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
-preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+preview_thumbnail: assets/images/posts/node-cli-rpg-getting-started-thumbnail.jpg
 image: assets/images/posts/node-cli-rpg-getting-started.jpg
 excerpt: >-
     We explore some Node.js and JavaScript concepts through the process

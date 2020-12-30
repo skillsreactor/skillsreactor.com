@@ -12,6 +12,16 @@ body {
     flex-shrink: 0;
     background-color: #002b36;
     color: #839496;
+
+    .uk-icon-button {
+        background-color: #839496;
+        color: #002b36;
+        transition: opacity 0.1s ease-in-out;
+        
+        &:hover {
+            opacity: 0.8;
+        }
+    }
 }
 
 .uk-text-lead {

@@ -2,7 +2,7 @@
 layout: post
 title: Adding Actions | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
-preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+preview_thumbnail: assets/images/posts/node-cli-rpg-adding-actions-thumbnail.jpg
 image: assets/images/posts/node-cli-rpg-adding-actions.jpg
 excerpt: >-
     It's time to add some actions for our characters to take. We'll implement a function for each action our character can take.

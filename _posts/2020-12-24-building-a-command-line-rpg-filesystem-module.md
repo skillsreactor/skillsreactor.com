@@ -2,7 +2,7 @@
 layout: post
 title: Filesystem Module | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
-preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+preview_thumbnail: assets/images/posts/node-cli-rpg-filesystem-module-thumbnail.jpg
 image: assets/images/posts/node-cli-rpg-filesystem-module.jpg
 excerpt: >-
     Time to persist the character between rounds of the game. We'll build a state module using the native Node.js "fs" module.

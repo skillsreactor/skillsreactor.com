@@ -2,7 +2,7 @@
 layout: post
 title: Object Prototypes | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
-preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+preview_thumbnail: assets/images/posts/node-cli-rpg-object-prototypes-thumbnail.jpg
 image: assets/images/posts/node-cli-rpg-object-prototypes.jpg
 excerpt: >-
     Now that we have created our Character constructor, we are ready to begin implementing some behavior in the form of prototype methods.
