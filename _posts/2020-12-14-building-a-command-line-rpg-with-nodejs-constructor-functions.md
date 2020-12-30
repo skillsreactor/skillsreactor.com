@@ -149,3 +149,5 @@ their profession based on the constructor call arguments, we can move onto
 the more interesting part... behavior. For this, we'll look at object
 `prototypes` and how we can set methods that instances of objects created
 with our constructor functions can access.
+
+[You can find the code for the initial version here](https://github.com/skillsreactor/rpg-learning-example/tree/1.0.0){:target="_blank"}
