@@ -27,12 +27,16 @@ layout: default
       </div>
       {% assign recommended = site.tags[page.recommended_tag] %}
       {%- if recommended -%}
+        {%- if recommended.size > 1 or recommended[0].url != page.url -%}
         <h3 class="uk-heading-line uk-text-secondary uk-margin-large-top uk-margin-medium-bottom"><span>Continue Reading</span></h3>
         {%- for post in recommended -%}
-        <div>
-          {%- include post-preview.html -%}
-        </div>
+          {%- if post.url != page.url -%}
+          <div>
+            {%- include post-preview.html -%}
+          </div>
+          {%- endif -%}
         {%- endfor -%}
+        {%- endif -%}
       {%- endif -%}
 
       {%- if site.disqus.shortname -%}

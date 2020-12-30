@@ -12,6 +12,7 @@ lead: >-
     time to consider what you are building and how to structure your code.
     Spending the time up front to get the design right will usually save time
     during implementation.
+tags: node
 recommended_tag: node
 ---
 
