@@ -4,6 +4,10 @@
 {%- include head.html -%}
 
 <body>
+    {%- if jekyll.environment == 'production' and site.google.gtm.container -%}
+      {%- include gtm-noscript.html -%}
+    {%- endif -%}
+
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">

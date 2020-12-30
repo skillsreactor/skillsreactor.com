@@ -6,7 +6,11 @@
   {%- include google-fonts.html -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' -%}
+    {%- if site.google.gtm.container -%}
+      {%- include gtm.html -%}
+    {%- elsif site.google.analytics.id -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
   {%- endif -%}
 </head>

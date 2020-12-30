@@ -32,6 +32,12 @@ permalink: /:title
 date_format: '%B %d, %Y'
 show_excerpts: true
 
+google:
+  analytics:
+    id:
+  gtm:
+    container: GTM-PVLJWS9
+
 disqus:
   shortname: skillsreactor
 
