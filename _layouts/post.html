@@ -33,7 +33,7 @@ layout: default
       {%- if recommended -%}
         <section class="uk-section">
           {%- if recommended.size > 1 or recommended[0].url != page.url -%}
-            <h3 class="uk-heading-line uk-text-secondary uk-margin-large-top uk-margin-medium-bottom"><span>Continue Reading</span></h3>
+            <h3 class="uk-heading-line uk-text-secondary uk-margin-medium-bottom"><span>Continue Reading</span></h3>
             <ul class="uk-list uk-list-xlarge">
             {%- for post in recommended -%}
               {%- if post.url != page.url -%}
