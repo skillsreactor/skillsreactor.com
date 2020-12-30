@@ -5,26 +5,26 @@ layout: default
     <section class="uk-section-muted uk-padding-large">
         <div class="uk-container">
             <div class="uk-text-center uk-card">
-                <iframe class="uk-box-shadow-medium" width="560" height="315" src="https://www.youtube.com/embed/{{ page.vid }}"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen uk-responsive uk-video="autoplay: false"></iframe>
+                <iframe class="uk-box-shadow-medium" width="560" height="315"
+                    src="https://www.youtube.com/embed/{{ page.vid }}" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen uk-responsive uk-video="autoplay: false"></iframe>
             </div>
         </div>
     </section>
     <section class="uk-section">
         <div class="uk-container uk-container-xsmall">
             {%- include breadcrumbs.html -%}
-
             <article class="uk-article">
                 <h1 class="uk-article-title">{{ page.name }}</h1>
                 <p class="uk-text-lead">{{ page.description }}</p>
                 {{ content }}
-
-                {%- if site.disqus.shortname -%}
-                    {%- include disqus_comments.html -%}
-                {%- endif -%}
             </article>
+            <section class="uk-section">
+                {%- if site.disqus.shortname -%}
+                {%- include disqus_comments.html -%}
+                {%- endif -%}
+            </section>
         </div>
     </section>
 </div>
