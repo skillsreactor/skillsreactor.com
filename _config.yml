@@ -38,6 +38,8 @@ google:
   gtm:
     container: GTM-PVLJWS9
 
+cookie_consent: true
+
 disqus:
   shortname: skillsreactor
 

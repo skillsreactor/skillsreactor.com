@@ -16,6 +16,10 @@
 
     {%- include footer.html -%}
 
+    {%- if jekyll.environment == 'production' and site.cookie_consent -%}
+      {%- include cookie-consent.html -%}
+    {%- endif -%}
+
     {%- include scripts.html -%}
 </body>
 
