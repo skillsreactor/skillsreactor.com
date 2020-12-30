@@ -5,6 +5,7 @@ author: Aaron Jewell
 tags:
     - node-cli-rpg
 preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
+image: assets/images/posts/node-cli-rpg-constructor-functions.jpg
 excerpt: >-
     Getting our characters modeled up using constructor functions. We use
     a form of object composition to dynamically create profession objects...

@@ -6,6 +6,9 @@ layout: default
     
     <article class="uk-article" itemscope itemtype="http://schema.org/BlogPosting">
       <header>
+        {%- if page.image -%}
+          <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url({{ page.image }});"></div>
+        {%- endif -%}
         {%- include breadcrumbs.html -%}
         <h1 class="uk-article-title" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="uk-article-meta">
