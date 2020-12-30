@@ -31,6 +31,11 @@ google_analytics: true
 permalink: /:title
 date_format: '%B %d, %Y'
 show_excerpts: true
+
+disqus:
+  shortname: skillsreactor
+
+# Disable default syntax highlighting, use prism instead.
 kramdown:
    syntax_highlighter_opts:
       disable : true

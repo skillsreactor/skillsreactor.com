@@ -12,8 +12,9 @@ lead: >-
     time to consider what you are building and how to structure your code.
     Spending the time up front to get the design right will usually save time
     during implementation.
-tags: node
-recommended_tag: node
+tags: node-cli-rpg
+recommended_tag: node-cli-rpg
+comments: true
 ---
 
 First, let's go over what we're going to build. We want to make a command line

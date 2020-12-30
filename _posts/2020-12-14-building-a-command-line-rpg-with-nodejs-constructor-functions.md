@@ -3,12 +3,13 @@ layout: post
 title: Constructor Functions | Building a Command-Line RPG with Node.js
 author: Aaron Jewell
 tags:
-    - node
+    - node-cli-rpg
 preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
 excerpt: >-
     Getting our characters modeled up using constructor functions. We use
     a form of object composition to dynamically create profession objects...
-recommended_tag: node
+recommended_tag: node-cli-rpg
+comments: true
 ---
 
 We're going to build the first module in our command line RPG. In the first
