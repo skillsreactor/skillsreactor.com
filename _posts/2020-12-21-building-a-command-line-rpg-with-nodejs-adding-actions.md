@@ -76,14 +76,23 @@ We calculate the gold reward for the enemy as the sum of their health in damage,
 Our combat will play out, without breaks, in a single loop until either our fearless character or the enemy have run out of health.
 
 ```javascript
-    while (character.profession.health > 0 && enemy.health > 0) {
-        const prevEnemyHealth = enemy.health;
-        character.doDamage(enemy);
-        console.log(chalk.bold.red(`You hit the enemy for ${prevEnemyHealth - enemy.health} damage.`));
-        character.receiveDamage(enemy.damage);
-        console.log(chalk.bold.magenta (`The enemy hits you for ${enemy.damage} damage.`))
-        console.log(`You have ${character.profession.health} hitpoints remaining.`);
-    }
+while (character.profession.health > 0 && enemy.health > 0) {
+    const prevEnemyHealth = enemy.health;
+    
+    character.doDamage(enemy);
+    console.log(chalk.bold.red(
+        `You hit the enemy for ${prevEnemyHealth - enemy.health} damage.`
+    ));
+    
+    character.receiveDamage(enemy.damage);
+    console.log(chalk.bold.magenta (
+        `The enemy hits you for ${enemy.damage} damage.`
+    ))
+    
+    console.log(
+        `You have ${character.profession.health} hitpoints remaining.`
+    );
+}
 ```
 
 We don't know ahead of time how much damage the character will do to the enemy. So in order to report back to the player how much damage was done, we store a reference to the enemies health before any damage is done. Then after the damage has occurred, we look at the difference between the two in order to determine damage done. [Chalk](https://www.npmjs.com/package/chalk){:target="_blank"} is a NPM module that will make our command line output more engaging and was added to the game from a [pull request](https://github.com/skillsreactor/rpg-learning-example/pull/13){:target="_blank"} by community member [mdurst365](https://github.com/mdurst365){:target="_blank"} resolving this [issue](https://github.com/skillsreactor/rpg-learning-example/issues/9){:target="_blank"} .
@@ -168,7 +177,7 @@ That ensures we are only considering properties that exist directly on our objec
 
 The final step in our actions module is to decide what we want to export, and how we want to structure that. We'll expose each of our functions directly on the exports object, by the same name that we have used to define them within the module. If this object literal declaration looks odd to you, we are using the short-hand syntax that was added as a part of ES2015 (ES6) that allows us to not have to specify `attack: attack` if the name of the property is the same as the variable name that refers to the value.
 
-```
+```javascript
 module.exports = {
     attack,
     rest,
