@@ -6,7 +6,8 @@ tags:
     - node
 preview_thumbnail: assets/images/posts/2020-10-13-rpg-main-menu-thumbnail.jpg
 excerpt: >-
-    Let's explore some Node.js concepts and have a little fun at the same time.
+    Getting our characters modeled up using constructor functions. We use
+    a form of object composition to dynamically create profession objects...
 recommended_tag: node
 ---
 
