@@ -1,5 +1,5 @@
 ---
-name: Using timers with setTimeout | JavaScript
+title: Using timers with setTimeout | JavaScript
 vid: idUGPKZM0iM
 tags:
     - fundamentals

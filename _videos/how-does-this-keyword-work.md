@@ -1,5 +1,5 @@
 ---
-name: How Does the "this" Keyword Work?
+title: How Does the "this" Keyword Work?
 description: >-
     A brief introduction to the this keyword in JavaScript and
     the different ways it's value inside of functions can change

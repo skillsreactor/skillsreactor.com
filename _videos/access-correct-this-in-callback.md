@@ -1,5 +1,5 @@
 ---
-name: 'How do I access the correct "this" inside a callback?'
+title: 'How do I access the correct "this" inside a callback?'
 description: >-
     We briefly look at why you might not be getting the values
     you expect when using this inside of callback functions and

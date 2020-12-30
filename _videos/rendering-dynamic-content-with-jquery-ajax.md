@@ -1,5 +1,5 @@
 ---
-name: Rendering Dynamic Content with jQuery AJAX
+title: Rendering Dynamic Content with jQuery AJAX
 vid: mfhMxydvIZI
 description: >-
     How to render content elements to the DOM (Document Object Model)

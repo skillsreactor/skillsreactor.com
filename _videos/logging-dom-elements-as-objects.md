@@ -1,5 +1,5 @@
 ---
-name: Logging DOM Elements as Objects
+title: Logging DOM Elements as Objects
 vid: 4sZkQUIIzgc
 description: >-
     How to use console.dir() to log DOM Elements as objects instead of

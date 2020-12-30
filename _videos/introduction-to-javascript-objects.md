@@ -1,5 +1,5 @@
 ---
-name: Introduction to JavaScript Objects
+title: Introduction to JavaScript Objects
 description: >-
     First introduction to JavaScript objects for beginners. We look at how to
     access and set properties and methods, including nested objects. If you're

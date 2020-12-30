@@ -1,5 +1,5 @@
 ---
-name: Web Storage API
+title: Web Storage API
 vid: ojfeYawrk0Y
 tags:
     - web-api

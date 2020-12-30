@@ -1,5 +1,5 @@
 ---
-name: Parsing Strings to Integers
+title: Parsing Strings to Integers
 description: >-
     How to use Number.parseInt and Number primitive wrapper object to parse strings to integers.
 vid: SjDXaHJ9IbM

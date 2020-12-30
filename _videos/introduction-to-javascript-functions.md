@@ -1,5 +1,5 @@
 ---
-name: Introduction to JavaScript Functions
+title: Introduction to JavaScript Functions
 description: >-
     We provide an introduction to the syntax used to define and call
     functions in our JavaScript code. We briefly cover lexical scope

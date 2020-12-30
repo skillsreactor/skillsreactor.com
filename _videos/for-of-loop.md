@@ -1,5 +1,5 @@
 ---
-name: What are For ... Of Loops?
+title: What are For ... Of Loops?
 vid: rdziKWw8y0g
 description: >-
     We examine how for ... of loops are different from
