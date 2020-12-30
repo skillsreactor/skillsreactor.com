@@ -1,20 +1,20 @@
 {% assign related_video = site.videos | where:"vid", include.vid | first %}
 <aside class="uk-margin-medium-top uk-margin-medium-bottom">
-  <div class="uk-card uk-card-default uk-align-center uk-width-large">
-    <div class="uk-card-media-top">
-      <div data-content-title="{{ related_video.title }}" class="video-preview uk-cover-container"
-        style="height: 0; padding-top: 56.25%">
-        <a target="_blank" href="{{ related_video.url }}">
+  <a target="_blank" href="{{ related_video.url }}">
+    <div class="uk-card uk-card-default uk-card-hover uk-align-center uk-width-large">
+      <div class="uk-card-media-top">
+        <div data-content-title="{{ related_video.title }}" class="video-preview uk-cover-container"
+          style="height: 0; padding-top: 56.25%">
           <img width="560" height="315" src="https://img.youtube.com/vi/{{ related_video.vid }}/maxresdefault.jpg"
             uk-cover>
-        </a>
+        </div>
+      </div>
+      <div class="uk-card-body">
+        <p style="letter-spacing: 0.05em;"
+          class="uk-text-small uk-text-uppercase uk-text-primary uk-margin-remove-bottom">Related Video</p>
+        <h3 class="uk-card-title uk-margin-remove-top">{{ related_video.title }}</h3>
+        <p>{{ related_video.description }}</p>
       </div>
     </div>
-    <div class="uk-card-body">
-      <p style="letter-spacing: 0.05em;"
-        class="uk-text-small uk-text-uppercase uk-text-primary uk-margin-remove-bottom">Related Video</p>
-      <h3 class="uk-card-title uk-margin-remove-top">{{ related_video.title }}</h3>
-      <p>{{ related_video.description }}</p>
-    </div>
-  </div>
+  </a>
 </aside>
