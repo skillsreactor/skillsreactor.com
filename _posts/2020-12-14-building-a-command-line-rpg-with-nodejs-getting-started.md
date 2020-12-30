@@ -9,7 +9,7 @@ excerpt: >-
     by thinking about our plan and how we can structure the components...
 lead: >-
     It's always a good idea at the start of a new project to take plenty of
-    time to consider what your are building and how to structure your code.
+    time to consider what you are building and how to structure your code.
     Spending the time up front to get the design right will usually save time
     during implementation.
 recommended_tag: node
