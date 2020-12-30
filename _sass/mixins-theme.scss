@@ -1876,7 +1876,9 @@
 @mixin hook-subnav-item-hover(){}
 @mixin hook-subnav-item-active(){}
 @mixin hook-subnav-divider(){}
-@mixin hook-subnav-pill-item(){}
+@mixin hook-subnav-pill-item(){
+    border-radius: 16px;
+}
 @mixin hook-subnav-pill-item-hover(){}
 @mixin hook-subnav-pill-item-onclick(){}
 @mixin hook-subnav-pill-item-active(){}

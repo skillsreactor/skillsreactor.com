@@ -1,0 +1,28 @@
+<div class="uk-card uk-card-default">
+    <div class="uk-card-body">
+        <div class="uk-grid-small uk-flex-middle" uk-grid>
+            {%-  if post.preview_thumbnail -%}
+            <div class="uk-width-auto">
+                <img data-src="{{ post.preview_thumbnail }}" width="200" height="200" alt="" uk-img>
+            </div>
+            {%- endif -%}
+            <div class="uk-width-expand">
+                <h3 class="uk-card-title uk-margin-remove-bottom">
+                    <a class="uk-link-heading" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h3>
+                {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                <span
+                    class="uk-text-meta uk-margin-remove-top">{{ post.date | date: date_format }}</span>
+                {%- if site.show_excerpts -%}
+                <p>{{ post.excerpt }}</p>
+                {%- endif -%}
+                <div>
+                    <a href="{{ post.url | relative_url }}" class="uk-button uk-button-text">Read
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
