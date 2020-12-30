@@ -1,7 +1,7 @@
 {% assign related_video = site.videos | where:"vid", include.vid | first %}
 <aside class="uk-margin-medium-top uk-margin-medium-bottom">
-  <a target="_blank" href="{{ related_video.url }}">
-    <div class="uk-card uk-card-default uk-card-hover uk-align-center uk-width-large">
+  <div class="uk-card uk-card-default uk-card-hover uk-align-center uk-width-large uk-link-text">
+    <a target="_blank" href="{{ related_video.url }}">
       <div class="uk-card-media-top">
         <div data-content-title="{{ related_video.title }}" class="video-preview uk-cover-container"
           style="height: 0; padding-top: 56.25%">
@@ -15,6 +15,6 @@
         <h3 class="uk-card-title uk-margin-remove-top">{{ related_video.title }}</h3>
         <p>{{ related_video.description }}</p>
       </div>
-    </div>
-  </a>
+    </a>
+  </div>
 </aside>
