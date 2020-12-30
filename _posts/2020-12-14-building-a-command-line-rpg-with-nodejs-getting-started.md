@@ -24,6 +24,8 @@ be spent to rest in order to heal their wounds from combat. The game is
 intentionally very small and open-ended as we want it to serve as a minimum
 viable product (MVP) and get a foundation for others to add features to.
 
+{%- include contribute.html repo_link="https://github.com/skillsreactor/rpg-learning-example/releases/latest" -%}
+
 ## Table of Contents
 
 [User Interface](#user-interface)
@@ -160,3 +162,5 @@ start by writing up the characters and professions. We'll get a
 chance to work with Object constructor functions and object prototypes.
 We'll assign some properties to our characters and use the prototype
 to give some behavior which our characters will need to battle their enemies!
+
+{%- include contribute.html repo_link="https://github.com/skillsreactor/rpg-learning-example/releases/latest" -%}
